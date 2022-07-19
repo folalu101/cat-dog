@@ -21,11 +21,13 @@
 #hidden-pet {
     display: none;
 }
-clickable {
+.clickable {
     cursor: pointer;
     color: #0088cc;
   }
   
 .clickable:hover {
-    text-decoration: underline;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
