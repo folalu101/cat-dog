@@ -29,5 +29,10 @@
 .clickable:hover {
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#pets {
+    padding-left: 20%;
+    padding-right: 20%;
     
 }
