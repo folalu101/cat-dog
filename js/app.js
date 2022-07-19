@@ -61,12 +61,14 @@ $(document).ready(function(){
     $("#cat").click(function(){
         $("#meow").before("<li>Meow Meow</li>");
         $("#bark").after("<li>Bark Bark</li>");
+        $("li").css("color", "green");
 
     });
 
     $("#dog").click(function(){
         $("#meow").before("<li>Meow Again !</li>");
         $("#bark").after("<li>Bark Again !</li>");
+        $("li").css("color", "red");
 
     });
 
