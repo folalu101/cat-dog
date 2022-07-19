@@ -1,6 +1,5 @@
-img {
-    height: 400px;
-    width: 400px;
-    justify-content: center;
-    display: grid;
+
+.image-style {
+   padding-left: 15%;
+   
 }
