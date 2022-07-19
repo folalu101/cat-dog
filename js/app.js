@@ -6,6 +6,10 @@ $(document).ready(function(){
         $("#success").prepend("<li>Hiyya !</li>");
         $("#danger").prepend("<li>Come on !!</li>");
         $("#warning").prepend("<li>Thank you !</li>");
+        $('li').css('background-color', 'blue');
+        // $("li").children("li").first().click(function(){
+        //     alert("hi");
+        // });
     });
 
     $("#hello").click(function(){
@@ -14,6 +18,7 @@ $(document).ready(function(){
         $("#success").append("<li>Hello Honey !</li>");
         $("#danger").append("<li>Hello Come on !!</li>");
         $("#warning").append("<li>Hello Take care !</li>");
+        $("li").css("background-color", "grey");
     });
 
     $("#yes").click(function(){
@@ -22,6 +27,15 @@ $(document).ready(function(){
         $("#success").prepend("<li>Yes Honey !</li>");
         $("#danger").prepend("<li>Yes Come on !!</li>");
         $("#warning").prepend("<li>Yes Take care !</li>");
+        $("li").css("background-color", "green");
+        // // Try to work on this 
+        // $('#primary').click(function() {
+        //     alert('hi');
+        //   });
+        // $("#primary").children("li").first().click(function() {
+        //     $(this).remove();
+
+        // });
     });
 
     $("#how").click(function(){
@@ -30,6 +44,7 @@ $(document).ready(function(){
         $("#success").append("<li>How Honey ?</li>");
         $("#danger").append("<li>How Come on ?</li>");
         $("#warning").append("<li> Take care How ?</li>");
+        $("li").css("background-color", "red");
 
     });
 
@@ -39,6 +54,7 @@ $(document).ready(function(){
         $("#success").prepend("<li>daer friend </li>");
         $("#danger").prepend("<li>Dear Come on </li>");
         $("#warning").prepend("<li> Take care Dear </li>");
+        $("li").css("background-color", "yellow");
 
     });
 
