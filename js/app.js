@@ -33,4 +33,13 @@ $(document).ready(function(){
 
     });
 
+    $("#dear").click(function(){
+        $("#primary").prepend("<li>Welcome dear</li>");
+        $("#secondary").prepend("<li>How dear</li>");
+        $("#success").prepend("<li>daer friend </li>");
+        $("#danger").prepend("<li>Dear Come on </li>");
+        $("#warning").prepend("<li> Take care Dear </li>");
+
+    });
+
 });
