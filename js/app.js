@@ -72,4 +72,9 @@ $(document).ready(function(){
 
     });
 
+    $(".clickable").click(function(){
+        $("#click-me").toggle();
+        $("#hidden-pet").toggle();
+    });
+
 });
