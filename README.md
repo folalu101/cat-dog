@@ -1,4 +1,4 @@
-# DOM Manipulation Practice
+# DOM Manipulation 
 
 ### Adding some interactivity to your web pages:
 
@@ -19,7 +19,7 @@
 * .css
 * .this
 
-## Language and Texy used
+## Language Used
 * Html
 * css/Bootstrap
 * Javascript
