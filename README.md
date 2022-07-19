@@ -1,4 +1,4 @@
-# DOM Manipulation 
+# Dom Manipulation in CAT VS DOG web
 
 ### Adding some interactivity to your web pages:
 
@@ -12,14 +12,16 @@
 
 
 ### Methods Used
-* .prepend
-* .append
-* .before
-* .after
-* .children
-* .child
-* .css
-* .this
+* .prepend()
+* .append()
+* .before()
+* .after()
+* .children()
+* .child()
+* .css()
+* .this()
+* .remove()
+* .first()
 
 ## Language Used
 * Html

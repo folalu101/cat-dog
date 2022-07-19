@@ -75,6 +75,19 @@ $(document).ready(function(){
     $(".clickable").click(function(){
         $("#click-me").toggle();
         $("#hidden-pet").toggle();
+        $(".clickable").css("color", "red");
     });
+
+    $("#more-img").click(function(){
+        $("#pets").show();
+        $("#more-img").css("color", "red");
+    });
+
+    $("#pets").click(function(){
+        $("#pets").hide();
+    });
+
+
+
 
 });
