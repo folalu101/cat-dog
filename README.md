@@ -1,6 +1,6 @@
 # Dom Manipulation in CAT VS DOG web
 
-### Adding some interactivity to your web pages:
+### Adding functionality to your web pages:
 
 * Write a code selecting certain HTML elements and changing the background color to green.
 * Now removing those elements.

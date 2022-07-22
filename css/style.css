@@ -36,3 +36,12 @@
     padding-right: 20%;
     
 }
+#more-img:hover {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: #225577;
+}
+#more-img {
+    cursor: -webkit-grab;
+    
+}
