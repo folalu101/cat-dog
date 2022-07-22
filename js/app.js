@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    // index page functionality .prepend and .append method ()
     $("#hey").click(function(){
         $("#primary").prepend("<li>Yes Dear!</li>");
         $("#secondary").prepend("<li>Come in</li>");
@@ -57,7 +57,7 @@ $(document).ready(function(){
         $("li").css("background-color", "yellow");
 
     });
-
+    // catdog html for functionality of .before and .after method ()
     $("#cat").click(function(){
         $("#meow").before("<li>Meow Meow</li>");
         $("#bark").after("<li>Bark Bark</li>");
@@ -71,13 +71,13 @@ $(document).ready(function(){
         $("li").css("color", "red");
 
     });
-
+    // click html for functionality of .toggle method()
     $(".clickable").click(function(){
         $("#click-me").toggle();
         $("#hidden-pet").toggle();
         $(".clickable").css("color", "red");
     });
-
+    // click html for functionality of .show() and .hide() method
     $("#more-img").click(function(){
         $("#pets").show();
         $("#more-img").css("color", "red");
